@@ -874,6 +874,7 @@ let parseProp componentMethodName (row: ComponentApiPage.Props.Row) (rowHtml: Ht
           | "width"),
           "number | string" ->
             [ RegularPropOverload.create "(value: int)" "value"
+              RegularPropOverload.create "(value: string)" "value"
               RegularPropOverload.create "(value: Styles.ICssUnit)" "value" ]
 
         | "dialog", "onClose", "func" ->

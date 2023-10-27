@@ -2410,6 +2410,8 @@ type circularProgress =
   /// The size of the component. If using a number, the pixel unit is assumed. If using a string, you need to provide the CSS unit, e.g '3rem'.
   static member inline size (value: int) = Interop.mkAttr "size" value
   /// The size of the component. If using a number, the pixel unit is assumed. If using a string, you need to provide the CSS unit, e.g '3rem'.
+  static member inline size (value: string) = Interop.mkAttr "size" value
+  /// The size of the component. If using a number, the pixel unit is assumed. If using a string, you need to provide the CSS unit, e.g '3rem'.
   static member inline size (value: Styles.ICssUnit) = Interop.mkAttr "size" value
   /// The system prop that allows defining system overrides as well as additional CSS styles. See the [`sx` page](https://mui.com/system/getting-started/the-sx-prop/) for more details.
   static member inline sx (styleOverrides: #seq<IStyleAttribute>) = Interop.mkAttr "sx" (createObj !!styleOverrides)
@@ -8121,6 +8123,8 @@ type skeleton =
   /// Height of the skeleton. Useful when you don't want to adapt the skeleton to a text element but for instance a card.
   static member inline height (value: int) = Interop.mkAttr "height" value
   /// Height of the skeleton. Useful when you don't want to adapt the skeleton to a text element but for instance a card.
+  static member inline height (value: string) = Interop.mkAttr "height" value
+  /// Height of the skeleton. Useful when you don't want to adapt the skeleton to a text element but for instance a card.
   static member inline height (value: Styles.ICssUnit) = Interop.mkAttr "height" value
   /// The system prop that allows defining system overrides as well as additional CSS styles. See the [`sx` page](https://mui.com/system/getting-started/the-sx-prop/) for more details.
   static member inline sx (styleOverrides: #seq<IStyleAttribute>) = Interop.mkAttr "sx" (createObj !!styleOverrides)
@@ -8140,6 +8144,8 @@ type skeleton =
   static member inline variant (value: string) = Interop.mkAttr "variant" value
   /// Width of the skeleton. Useful when the skeleton is inside an inline element with no width of its own.
   static member inline width (value: int) = Interop.mkAttr "width" value
+  /// Width of the skeleton. Useful when the skeleton is inside an inline element with no width of its own.
+  static member inline width (value: string) = Interop.mkAttr "width" value
   /// Width of the skeleton. Useful when the skeleton is inside an inline element with no width of its own.
   static member inline width (value: Styles.ICssUnit) = Interop.mkAttr "width" value
 

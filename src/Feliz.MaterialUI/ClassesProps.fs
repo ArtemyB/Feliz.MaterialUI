@@ -9,7 +9,7 @@ open Fable.Core
 open Feliz
 
 [<AutoOpen; EditorBrowsable(EditorBrowsableState.Never)>]
-module classesProps =
+module rec classesProps =
 
   module accordion =
   

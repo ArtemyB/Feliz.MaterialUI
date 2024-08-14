@@ -12,7 +12,7 @@ open Feliz.MaterialUI
 
 
 [<AutoOpen; EditorBrowsable(EditorBrowsableState.Never)>]
-module themeProps =
+module rec themeProps =
 
   module theme =
 

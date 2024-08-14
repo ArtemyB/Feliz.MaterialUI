@@ -1,4 +1,4 @@
-module Feliz.MaterialUI.Icons
+module rec Feliz.MaterialUI.Icons
 
 (*////////////////////////////////
 /// THIS FILE IS AUTO-GENERATED //

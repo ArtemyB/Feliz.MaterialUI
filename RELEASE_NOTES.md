@@ -1,5 +1,8 @@
 Changelog
 =========
+### 5.11.0-beta.4 (2024-08-14)
+* Fix issue of compilation by Fable >= 4.8.0 ([issue #7](https://github.com/ArtemyB/Feliz.MaterialUI/issues/7)).
+
 ### 5.11.0-beta.3 (2023-06-21)
 * Fix [issue #5](https://github.com/ArtemyB/Feliz.MaterialUI/issues/5).
 

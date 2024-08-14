@@ -1,4 +1,4 @@
-module Feliz.MaterialUI.MuiClasses
+module rec Feliz.MaterialUI.MuiClasses
 
 (*////////////////////////////////
 /// THIS FILE IS AUTO-GENERATED //

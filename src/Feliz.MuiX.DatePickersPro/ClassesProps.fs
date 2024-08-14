@@ -10,7 +10,7 @@ open Feliz
 open Feliz.MaterialUI
 
 [<AutoOpen; EditorBrowsable(EditorBrowsableState.Never)>]
-module classesProps =
+module rec classesProps =
 
   module calendarPickerSkeleton =
   

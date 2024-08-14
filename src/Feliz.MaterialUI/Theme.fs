@@ -29,7 +29,7 @@ type theme =
   
 
 [<AutoOpen; EditorBrowsable(EditorBrowsableState.Never)>]
-module themeStatic =
+module rec themeStatic =
 
   module theme =
 
